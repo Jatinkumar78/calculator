@@ -1,0 +1,113 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+         body{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+           background: #0e0f0f;
+         }
+         
+         #display{
+          color: #4cc9f0;
+          width: 280px;
+          height: 70px;
+          margin: 0;
+          font-size: 36px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 600;
+          background-color: transparent;
+          border: none;
+          outline: none;
+          text-align: right;
+        }
+
+         .device{
+           width: 300px;
+           height: 100vh;
+           background-color: #feeafa;
+           margin: auto;
+         }
+         
+         .screen_container{
+           width: 300px;
+           height: 70px;
+           background-color: transparent;
+           position: absolute;
+           bottom: 375px;
+         }
+         
+         
+         .num_container{
+           width: 300px;
+           height: 375px;
+           margin: auto;
+           background-image: linear-gradient(to bottom right , #caf0f8 , #90e0ef);
+           position: absolute;
+           bottom: 0;
+         }
+         
+         .first_row , .second_row , .third_row , .fourth_row , .fifth_row{
+           min-width: 300px;
+           height: 75px;
+           display: block;
+         }
+         
+         .zero , .dot , .percentage , .plus , .one , .two , .three , .minus , .four , .five , .six , .multiply , .seven , .eight , .nine , .division{
+           width: 73px;
+           height: 73px;
+           border: 1px solid #000807;
+           display: block;
+         }
+         
+         .dot , .two , .five , .eight{
+           margin-left: 75px;
+           margin-top: -75px;
+         }
+         
+         .percentage , .three , .six , .nine , .equal{
+           margin-left: 150px;
+           margin-top: -75px;
+         }
+         
+         .plus , .minus , .multiply , .division{
+           margin-left: 225px;
+           margin-top: -75px;
+           background-image: linear-gradient(to top left , #77b7bd , #e4c1f9);
+         }
+         
+         .clear , .equal{
+           width: 148px;
+           height: 73px;
+           border: 1px solid #000807;
+           background-color: transparent;
+           display: block;
+         }
+         
+         .equal{
+           background-image: linear-gradient(to top right , #aad7d3 , #0bcebb);
+         }
+         
+         input{
+           display: block;
+           margin: auto;
+           color: #fefefe;
+           margin-top: 20px;
+           font-size: 24px;
+           font-family: 'Montserrat', sans-serif;
+           font-weight: 600;
+           background-color: transparent;
+           border: none;
+           outline: none;
+         }
+         
+         .sign{
+           font-size: 34px;
+           margin-top: 13px;
+         }
+         
+         .num{
+           font-size: 18px;
+           margin-top: 26px;
+         }
+         
